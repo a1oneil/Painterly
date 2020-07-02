@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87E2343724AD04CF00A6ADA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E2343624AD04CF00A6ADA5 /* AppDelegate.swift */; };
+		87E2343924AD04CF00A6ADA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E2343824AD04CF00A6ADA5 /* SceneDelegate.swift */; };
+		87E2343B24AD04CF00A6ADA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E2343A24AD04CF00A6ADA5 /* ViewController.swift */; };
+		87E2343E24AD04CF00A6ADA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E2343C24AD04CF00A6ADA5 /* Main.storyboard */; };
+		87E2344124AD04CF00A6ADA5 /* PaintApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87E2343F24AD04CF00A6ADA5 /* PaintApp.xcdatamodeld */; };
+		87E2344324AD04D000A6ADA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E2344224AD04D000A6ADA5 /* Assets.xcassets */; };
+		87E2344624AD04D000A6ADA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E2344424AD04D000A6ADA5 /* LaunchScreen.storyboard */; };
+		87E2344E24AD04E700A6ADA5 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E2344D24AD04E700A6ADA5 /* CanvasViewController.swift */; };
+		87E2345224AD0B6100A6ADA5 /* Vibur-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87E2345124AD0B6100A6ADA5 /* Vibur-Regular.ttf */; };
+		87E2345424AD306000A6ADA5 /* LineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E2345324AD306000A6ADA5 /* LineViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87E2343324AD04CF00A6ADA5 /* Painterly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Painterly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E2343624AD04CF00A6ADA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87E2343824AD04CF00A6ADA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		87E2343A24AD04CF00A6ADA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87E2343D24AD04CF00A6ADA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87E2344024AD04CF00A6ADA5 /* PaintApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaintApp.xcdatamodel; sourceTree = "<group>"; };
+		87E2344224AD04D000A6ADA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87E2344524AD04D000A6ADA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87E2344724AD04D000A6ADA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87E2344D24AD04E700A6ADA5 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
+		87E2345124AD0B6100A6ADA5 /* Vibur-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vibur-Regular.ttf"; sourceTree = "<group>"; };
+		87E2345324AD306000A6ADA5 /* LineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87E2343024AD04CF00A6ADA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87E2342A24AD04CF00A6ADA5 = {
+			isa = PBXGroup;
+			children = (
+				87E2343524AD04CF00A6ADA5 /* PaintApp */,
+				87E2343424AD04CF00A6ADA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87E2343424AD04CF00A6ADA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87E2343324AD04CF00A6ADA5 /* Painterly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87E2343524AD04CF00A6ADA5 /* PaintApp */ = {
+			isa = PBXGroup;
+			children = (
+				87E2345124AD0B6100A6ADA5 /* Vibur-Regular.ttf */,
+				87E2343624AD04CF00A6ADA5 /* AppDelegate.swift */,
+				87E2343824AD04CF00A6ADA5 /* SceneDelegate.swift */,
+				87E2343A24AD04CF00A6ADA5 /* ViewController.swift */,
+				87E2344D24AD04E700A6ADA5 /* CanvasViewController.swift */,
+				87E2345324AD306000A6ADA5 /* LineViewController.swift */,
+				87E2343C24AD04CF00A6ADA5 /* Main.storyboard */,
+				87E2344224AD04D000A6ADA5 /* Assets.xcassets */,
+				87E2344424AD04D000A6ADA5 /* LaunchScreen.storyboard */,
+				87E2344724AD04D000A6ADA5 /* Info.plist */,
+				87E2343F24AD04CF00A6ADA5 /* PaintApp.xcdatamodeld */,
+			);
+			path = PaintApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87E2343224AD04CF00A6ADA5 /* PaintApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E2344A24AD04D000A6ADA5 /* Build configuration list for PBXNativeTarget "PaintApp" */;
+			buildPhases = (
+				87E2342F24AD04CF00A6ADA5 /* Sources */,
+				87E2343024AD04CF00A6ADA5 /* Frameworks */,
+				87E2343124AD04CF00A6ADA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaintApp;
+			productName = PaintApp;
+			productReference = 87E2343324AD04CF00A6ADA5 /* Painterly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87E2342B24AD04CF00A6ADA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Arianna O'Neil";
+				TargetAttributes = {
+					87E2343224AD04CF00A6ADA5 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 87E2342E24AD04CF00A6ADA5 /* Build configuration list for PBXProject "PaintApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87E2342A24AD04CF00A6ADA5;
+			productRefGroup = 87E2343424AD04CF00A6ADA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87E2343224AD04CF00A6ADA5 /* PaintApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87E2343124AD04CF00A6ADA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E2345224AD0B6100A6ADA5 /* Vibur-Regular.ttf in Resources */,
+				87E2344624AD04D000A6ADA5 /* LaunchScreen.storyboard in Resources */,
+				87E2344324AD04D000A6ADA5 /* Assets.xcassets in Resources */,
+				87E2343E24AD04CF00A6ADA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87E2342F24AD04CF00A6ADA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E2343B24AD04CF00A6ADA5 /* ViewController.swift in Sources */,
+				87E2343724AD04CF00A6ADA5 /* AppDelegate.swift in Sources */,
+				87E2345424AD306000A6ADA5 /* LineViewController.swift in Sources */,
+				87E2344124AD04CF00A6ADA5 /* PaintApp.xcdatamodeld in Sources */,
+				87E2344E24AD04E700A6ADA5 /* CanvasViewController.swift in Sources */,
+				87E2343924AD04CF00A6ADA5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87E2343C24AD04CF00A6ADA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87E2343D24AD04CF00A6ADA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87E2344424AD04D000A6ADA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87E2344524AD04D000A6ADA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87E2344824AD04D000A6ADA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87E2344924AD04D000A6ADA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87E2344B24AD04D000A6ADA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaintApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Arianna-ONeil.PaintApp";
+				PRODUCT_NAME = Painterly;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87E2344C24AD04D000A6ADA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaintApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Arianna-ONeil.PaintApp";
+				PRODUCT_NAME = Painterly;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87E2342E24AD04CF00A6ADA5 /* Build configuration list for PBXProject "PaintApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E2344824AD04D000A6ADA5 /* Debug */,
+				87E2344924AD04D000A6ADA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87E2344A24AD04D000A6ADA5 /* Build configuration list for PBXNativeTarget "PaintApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E2344B24AD04D000A6ADA5 /* Debug */,
+				87E2344C24AD04D000A6ADA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		87E2343F24AD04CF00A6ADA5 /* PaintApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				87E2344024AD04CF00A6ADA5 /* PaintApp.xcdatamodel */,
+			);
+			currentVersion = 87E2344024AD04CF00A6ADA5 /* PaintApp.xcdatamodel */;
+			path = PaintApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 87E2342B24AD04CF00A6ADA5 /* Project object */;
+}
