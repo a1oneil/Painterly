@@ -25,4 +25,4 @@ style="margin-right: 10px;"
 />
 
 #### Thank you for checking out Painterly! :)
-The icons are curtesy of FontAwesome, I just stylized them a bit.
+The icons are courtesy of FontAwesome, I just stylized them a bit.
